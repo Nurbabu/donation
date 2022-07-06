@@ -231,11 +231,12 @@ h1{
 /* Our-Aim section End */
 
 /* Form area start */
+
 .form-area{
     width: 80%;
     background-color: rgba(241, 223, 119, 0.3);
     height: 200px;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 10%;
 }
 
