@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Lobster+Two&family=Mulish:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -97,7 +98,7 @@ h1{
     font-weight: 700;
     position: relative;
     top: 40%;
-    left: 30%;
+    left: 28%;
  }
 
  .total-donate .other-amount{
@@ -134,3 +135,161 @@ h1{
 
  
 /* Total Donation End */
+
+/* Donatin plan start */
+.donation-plan{
+    height: 310px;
+    width: 310px;
+    padding: 40px 15px 15px 15px;
+    box-shadow: 1px 3px 20px rgb(238, 230, 230);
+    border-radius: 5px;
+    
+}
+
+.donation-plan h3{
+    padding-top: 15px;
+}
+
+.donation-plan p{
+    text-align: start;
+    font-size: 16px;
+}
+
+.donation-plan:first-child{
+    background-color: rgba(94, 202, 245, 0.3);
+}
+
+.donation-plan:nth-child(2){
+    background-color: rgba(245, 117, 94, 0.3);
+}
+
+.donation-plan:last-child{
+    background-color: rgba(245, 185, 94, 0.3);
+}
+
+
+
+/* Donatin plan End */
+
+/* Our-Aim section Start */
+.our-aim{
+    margin-top: 10%;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    
+}
+
+.our-aim h2{
+    color: rgb(250, 62, 62);
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 30px 0px 0px 30px;
+    margin-top: 20px;
+    
+}
+
+.our-aim p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 30px 0px 0px 30px;
+}
+
+.our-main-div{
+    margin-top: 5%;
+    display: flex;
+    gap: 2%;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.our-img{
+    height: 300px;
+    width: 300px;
+    
+}
+
+.our-img img{
+    height: 250px;
+    width: 250px;
+    
+}
+
+#first-img{
+    margin-top: 60px;
+    
+}
+
+#second-img{
+    margin-top: 60px;
+}
+/* Our-Aim section End */
+
+/* Form area start */
+.form-area{
+    width: 80%;
+    background-color: rgba(241, 223, 119, 0.3);
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.form-area input{
+    height: 40px;
+    width: 400px;
+    position: relative;
+    top: 35%;
+    left: 30%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(211, 211, 211, 1);
+    font-size: 18px;
+    padding: 20px;
+}
+
+.form-area .subscribe{
+   
+    padding: 10px 15px;
+    border: none;
+    position: relative;
+    top: 35%;
+    left: 29%;
+    border-radius:5px 20px 20px 5px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #ff6347;
+    color: #fff;
+    
+}
+
+/* Form area end */
+
+/* footer  section start */
+.footer{
+    margin-top: 15%;
+    height: 200px;
+    width: 100%;
+    background-color: #000;
+    
+}
+
+.footer h2{
+    color: #fff;
+     font-family: 'Lobster Two', cursive;
+     text-align: center;
+     position: relative;
+     top: 20%;
+     color: tomato;
+}
+
+.footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+}
+/* footer  section End */
